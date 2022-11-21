@@ -98,8 +98,8 @@ const persistBookmarks = () => {
   localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
 };
 
-const testMerge = () => {
-  console.log('test merge git');
+const testMergebranch = () => {
+  console.log('test merge git in test branch');
 };
 
 const init = () => {
