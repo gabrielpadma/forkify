@@ -94,9 +94,6 @@ const deleteBookmark = id => {
   persistBookmarks();
 };
 
-const newfeature = () => {
-  console.log('this is not a bug this is a feature', BUG);
-};
 const persistBookmarks = () => {
   localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
 };
