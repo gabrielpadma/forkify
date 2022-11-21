@@ -96,6 +96,7 @@ const deleteBookmark = id => {
 
 const persistBookmarks = () => {
   localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
+  console.log('coba');
 };
 
 const init = () => {
