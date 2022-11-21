@@ -98,7 +98,7 @@ const persistBookmarks = () => {
   localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
 };
 
-const testMerge = () => {
+const testMergeMaster = () => {
   console.log('test merge git');
 };
 
